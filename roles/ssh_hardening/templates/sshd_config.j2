@@ -1,0 +1,17 @@
+Port 22
+Protocol 2
+
+PermitRootLogin no
+PasswordAuthentication no
+ChallengeResponseAuthentication no
+UsePAM yes
+
+AllowUsers ubuntu devuser
+
+X11Forwarding no
+PrintMotd no
+ClientAliveInterval 300
+ClientAliveCountMax 2
+
+Subsystem sftp /usr/lib/openssh/sftp-server
+

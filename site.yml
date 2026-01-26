@@ -1,0 +1,6 @@
+---
+- name: User creation and SSH hardening
+  hosts: servers
+  become: yes
+  roles:
+    - ssh_hardening

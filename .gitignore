@@ -1,0 +1,4 @@
+*.pem
+*.pub
+inventory.ini
+known_host:s
